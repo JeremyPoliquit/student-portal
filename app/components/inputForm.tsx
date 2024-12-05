@@ -16,6 +16,7 @@ function inputForm({ onChange, value, placeholder, name }: InputFormProps) {
       value={value}
       onChange={onChange}
       placeholder={placeholder}
+      required
     />
   );
 }
